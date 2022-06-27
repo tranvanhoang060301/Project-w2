@@ -1,0 +1,43 @@
+.navigation {
+    background-color: #fff;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    height: var(--header-nav);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navigation:hover {
+    cursor: pointer;
+}
+
+.navigation__icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 20px;
+    background: #FFFFFF00 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navigation-boder {
+    position: absolute;
+    height: 32px;
+    border-right: 1px solid #E0E0E0;
+    top: 12px;
+    left: 56px;
+}
+
+.navigation__name {
+    height: 24px;
+    font-size: 18px;
+    margin: 0 24px;
+    flex: 1;
+    text-align: left;
+    font: normal normal 600 18px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+    opacity: 1;
+}
+
+  
